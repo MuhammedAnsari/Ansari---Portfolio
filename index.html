@@ -18,10 +18,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Skills</a>
-                    <a class="nav-link " href="#">Portfolio</a>
-                    <a class="nav-link " href="#">Experience</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link " href="#experience">Experience</a>
+                    <a class="nav-link " href="#portfolio">Portfolio</a>
                     <a class="nav-link " href="#">Contact</a>
                 </div>
             </div>
@@ -60,7 +60,7 @@
     </div>
 
     <!--About Me-->
-    <div class="aboutme">
+    <div class="aboutme" id="about">
         <div class="row">
             <div class="col-lg-6">
                 <!--About image-->
@@ -81,9 +81,9 @@
     </div>
 
     <!--Technical skills-->
-    <div class="skills">
+    <div class="skills" id="skills">
         <h1 align="center">Technical Skills</h1>
-        
+    
         <!--Skill-->
         <p>HTML & CSS</p>
         <div class="progress">
@@ -111,7 +111,7 @@
     </div>
 
     <!--Experience and education-->
-    <div class="exp-edu">
+    <div class="exp-edu" id="experience">
         <div class="row">
             <div class="col">
                 <h2>Experience</h2>
@@ -153,6 +153,71 @@
         </div>
     </div>
 
+    <!--Portfolio-->
+    <div class="portfolio" id="portfolio">
+        <h1 align="center"style="margin-bottom: 45px;">Portfolio</h1>
+    
+        <div class="row">
+    
+            <div class="col">
+                <div class="card port-img" style="width: 18rem;">
+                    <img src="Images/to-do-list-apps.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Todo App</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card port-img" style="width: 18rem;">
+                    <img src="Images/tindog.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Tindog Website</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card port-img" style="width: 18rem;">
+                    <img src="Images/weather.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Weather App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a type="button" class="btn btn-port">More..</a>
+
+    </div>
+
+    <div class="contact-me" id="contact">
+        <h1 align="center" style="margin-bottom: 45px;">Connect to Me</h1>
+
+        <div class="row">
+
+            <div class="col-lg-4">
+                <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+            </div>
+
+            <div class="col-lg-8">
+                <form class="contact-form"  action="mailto:muhammedansari73@gmail.com" method="post" enctype="text/plain">
+            
+                    <input class="txt-box" placeholder="Name" type="text" name="name" size="25">
+                    
+                    <input class="txt-box" placeholder="E-mail" type="text" name="mail" size="25"><br> <br>
+                    
+                    <input class="txt-box" placeholder="Your message..." type="text" name="comment" size="60"><br><br>
+        
+                    <input class="btn title-btn" type="submit" value="Send">
+                    
+                    </form>
+            </div>
+
+        </div>
+        
+        
+    </div>
         
 
 

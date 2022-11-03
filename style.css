@@ -87,6 +87,37 @@ body{
     margin: 100px 150px 30px 150px;
 }
 
+.portfolio{
+    margin: 100px 150px 30px 150px;
+}
+.btn-port{
+    background-color: #0bceb0;
+    color: white;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+.btn-port:hover{
+    background-color: #0bceb0;
+    color: white;
+}
+
+.contact-me{
+    margin: 100px 150px 30px 150px;
+}
+.contact-form{
+    margin-left: 5%;
+}
+.txt-box{
+    font-size: 16px;
+    border: 1px solid #dcdbdb;
+    border-radius: 7px;
+    padding: 1.5rem 0.75rem;
+}
+
+
+
+
+
 @media only screen and (max-width: 1028px){
 
     body{
@@ -115,6 +146,16 @@ body{
     }
     .edu-title{
         margin-top: 50px;
+    }
+
+    .portfolio{
+        width: 300px;
+    }
+    .port-img{
+        margin-top: 25px;
+    }
+    .btn-port{
+        margin-left: 35%;
     }
 }
 
