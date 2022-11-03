@@ -88,22 +88,30 @@ body{
 }
 
 @media only screen and (max-width: 1028px){
+
+    body{
+        align-items: center;
+    }
+    .name{
+        font-size: 35px;
+    }
+    
     .container-abt{
         margin-left: 40px;
         padding: 0;
-        width:600px;
+        width:610px;
     }
 
     .aboutme,.skills{
         margin-left: 40px;
         padding: 0;
-        width:600px;
+        width:610px;
     }
 
     .exp-edu{
         margin-left: 40px;
         padding: 0;
-        width:600px;
+        width:610px;
     }
     .edu-title{
         margin-top: 50px;
