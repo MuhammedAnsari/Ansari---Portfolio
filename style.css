@@ -105,13 +105,30 @@ body{
     margin: 100px 150px 30px 150px;
 }
 .contact-form{
-    margin-left: 5%;
+    margin-left: 15%;
 }
 .txt-box{
     font-size: 16px;
     border: 1px solid #dcdbdb;
     border-radius: 7px;
     padding: 1.5rem 0.75rem;
+}
+
+.txt-box-mssg{
+    font-size: 16px;
+    border: 1px solid #dcdbdb;
+    border-radius: 7px;
+    padding: 1.5rem 0.75rem;
+    height: 150px;
+}
+
+.btn-contact{
+    background-color: #0bceb0;
+    color: white;
+}
+
+.footer{
+    margin: 100px 150px 15px 150px;
 }
 
 
@@ -150,12 +167,28 @@ body{
 
     .portfolio{
         width: 300px;
+        width: 610px;
+        margin-left: 10%;
     }
     .port-img{
         margin-top: 25px;
     }
     .btn-port{
         margin-left: 35%;
+    }
+    .contact-form{
+        margin-left: 0%;
+    }
+    .contact-me{
+        margin-left: 10%;
+        width: 610px;
+    }
+    .btn-contact{
+        margin-left: 35%;
+    }
+    .footer{
+        width: 610px;
+        margin-left: 10%;
     }
 }
 
